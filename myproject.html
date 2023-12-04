@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Property Maintenance Booking</title>
+    <link rel="stylesheet" href="my project.css" type="text/css">
+</head>
+
+<body>
+    <header>
+        <h1>Property Maintenance Services Booking</h1>
+    </header>
+
+    <section id="booking-form">
+        <h2>Book a Service</h2>
+        <form id="service-form">
+            <label for="serviceName">Service:</label>
+            <select id="serviceName" name="serviceName" required>
+                <option value="plumbing">Plumber</option>
+                <option value="electrical">Electrician</option>
+                <option value="cleaning">Cleaning</option>
+                <option value="Carpenter">Carpenter</option>
+                <option value="gardening">Gardener</option>
+                <option value=" Landscaping">Landscaping</option>
+                <option value="painting">Painter</option>
+                
+                <!-- <option value="construction">Construction</option> -->
+                <option value="Pest Control">Pest Control</option>
+                <option value="House construction">House Construction</option>
+                <!-- service options -->
+            </select>
+
+            <label for="date">Preferred Date:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="time">Preferred Time:</label>
+            <input type="time" id="time" name="time" required>
+
+            <label for="additionalInfo" type="additionalInfo" id="additionalInfo" placeholder="Type heare..">Additional Information:</label>
+            <textarea id="additionalInfo" placeholder="type here..." name="additionalInfo" rows="4"></textarea>
+
+            <button type="submit" onclick="bookService()"><a href="me.html">Book Now</a></button>
+        </form>
+    </section>
+
+    <script src="my project.js"></script>
+
+    
+</body>
+
+</html>
+
+
+
+
+
+
